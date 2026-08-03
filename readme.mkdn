@@ -1,0 +1,48 @@
+# wisp
+
+> **WISP Isn't STUN Protocol**
+
+a smol PoC for moving files over the internet using only the **mainline dht** and **tcp**
+
+emphasis on **only**
+
+no stun
+no turn
+no webrtc
+no signaling server
+no random cloud service or 3rd party
+
+the dht is for finding peers
+after that its just tcp doing tcp things
+
+## why
+
+because i wanted to see if it could be done
+thats kind of it
+
+## more on wisp
+
+this is **not** trying to replace croc
+
+or magic wormhole
+or syncthing
+or tailscale
+or literally anything else
+
+if youre looking for something that isnt broken go use one of those
+this is a PoC
+
+## but what about nat traversal
+
+wisp doesnt do stun because *wisp isnt stun protocol*
+
+if two peers cant make a tcp connection then youre probably not transferring anything today
+that is NOT a bug and will NOT be fixed
+
+## contributions
+
+not right now
+
+## license
+
+working on it
