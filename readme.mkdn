@@ -1,7 +1,5 @@
 # wisp
 
-> **WISP Isn't STUN Protocol**
-
 a smol PoC for moving files over the internet using only the **mainline dht** and **tcp**
 
 emphasis on **only**
