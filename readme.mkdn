@@ -24,6 +24,8 @@ wisp doesnt do stun because *wisp isnt stun protocol*
 
 if two peers cant make a tcp connection then youre probably not transferring anything today
 
+given my implementation works on around 90% of all global networks and may bypass certain firewalls but the remaining 10% is private networks or symmetric nat
+
 ## contributions
 
 not right now
